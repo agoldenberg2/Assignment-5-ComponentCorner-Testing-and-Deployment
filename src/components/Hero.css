@@ -1,0 +1,36 @@
+.hero {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url("https://placehold.co/1200x400/dc2626/ffffff?text=ComponentCorner");
+  background-position: center;
+  color: white;
+}
+
+.hero-content {
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #f65858;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

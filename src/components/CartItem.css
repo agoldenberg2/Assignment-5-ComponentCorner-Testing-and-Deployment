@@ -1,0 +1,25 @@
+/* used ai to help me style the cart items. I was having trouble getting the items to display in a row and to have the image on the left and the text on the right. I also wanted to add a remove button to each item so that the user can remove items from the cart. */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+
+}
+
+.cart-item button {
+  background-color: #db7867;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #c75b4a;
+}
